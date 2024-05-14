@@ -1,4 +1,6 @@
 from random import *
+
+#Aufgabe 2.1
 min = int(input("Geben Sie die Zahlen in Minuten an: "))
 h = min//60
 min = min%60
@@ -8,8 +10,9 @@ sek = sek*60
 sek = int(sek)
 print(h, "h", min, "min", sek, "sek")
 
-print()
+print(" ")
 
+#Aufgabe 2.2
 print("Errate eine Zah von 1 bis 100: ")
 z = randint(1,100)
 print(z)
@@ -30,6 +33,7 @@ while erraten == False :
 
 print(" ")
 
+#Aufgabe 2.3
 s = input("Gebe zufällige Buchstaben und Zahlen ein: ")
 zahlen = 0
 buchstaben = ""
@@ -40,4 +44,5 @@ for char in s:
         buchstaben += char
     
 print(zahlen, buchstaben)
+
 input("Done")
